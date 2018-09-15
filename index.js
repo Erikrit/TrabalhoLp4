@@ -49,7 +49,7 @@ setTimeout(function(){
  *  insere as configurações do custom-express, que tem: express e consign
  *         O consign integra os controllers, em um primeiro momento.
  */
-var config = require('./config/custom-express');
+var config = require('../lp4-quiz/config/custom-express');
 
 /**
  *  cria uma instância do config dentro do app, assim permite criar a aplicação com o listener 

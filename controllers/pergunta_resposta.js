@@ -1,7 +1,7 @@
 module.exports = function(app){
  
     /** GET /usuario
-     *  rota que obtém lista de usuários (find all)
+     *  rota que obtém lista de usuários (find all) dd
      */
     app.get('/quiz', function(req, resp){
         var con = app.persistencia.connectionFactory;
@@ -228,7 +228,7 @@ module.exports = function(app){
             }
             
             /**
-             * Verifica se usário existe
+             * Verifica se usário existe ccgit 
              */
             if(!result || result.length == 0){
                 resp.status(404);
@@ -256,4 +256,5 @@ module.exports = function(app){
         })
 
     })
+    
 }
